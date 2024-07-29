@@ -16,15 +16,15 @@ import './index.css';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
-      <Route index element={<Home />} /> {/* This renders Home at the root path */}
+      <Route index element={<Home />} /> 
       <Route path='Home' element={<Home />} />
-      <Route path='About' element={<About />} />
-      <Route path='Academics' element={<Academics />} />
-      <Route path='Admission' element={<Admission />} />
-      <Route path='Faculty' element={<Faculty />} />
-      <Route path='Gallery' element={<Gallery />} />
-      <Route path='Students' element={<Students />} />
-      <Route path='Contact' element={<Contact />} />
+      <Route path='/About' element={<About />} />
+      <Route path='/Academics' element={<Academics />} />
+      <Route path='/Admission' element={<Admission />} />
+      <Route path='/Faculty' element={<Faculty />} />
+      <Route path='/Gallery' element={<Gallery />} />
+      <Route path='/Students' element={<Students />} />
+      <Route path='/Contact' element={<Contact />} />
     </Route>
   )
 );

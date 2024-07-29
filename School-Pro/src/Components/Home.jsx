@@ -3,7 +3,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='h-auto w-[100vw] md:flex bg-[#FDFDFD]'>
+    <div className='h-auto w-auto md:flex bg-[#FDFDFD] p-4'>
        <div className='h-auto w-[100%] md:w-[50%]   flex justify-center md:justify-start items-start md:items-center'>
 
            <div className='h-auto w-auto p-[17vmin] md:p-0 md:pl-[5vmin] md:h-[70vmin] md:w-[80vmin]  flex flex-col justify-center items-center md:items-start mt-[8vmin] md:mt-0'>
@@ -25,3 +25,5 @@ const Home = () => {
 };
 
 export default Home;
+
+

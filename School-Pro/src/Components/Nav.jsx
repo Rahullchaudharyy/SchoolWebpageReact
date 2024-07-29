@@ -32,7 +32,7 @@ const Nav = () => {
     <div className="relative w-full bg-white shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
-          <span className="font-bold text-[3vmin]">Springdale Public School</span>
+          <span className="font-bold text-[3vmin]"><span className='text-orange-400'>Springdale</span> Public School</span>
         </div>
         <div className="hidden lg:block">
           <ul className="ml-12 inline-flex space-x-8">
