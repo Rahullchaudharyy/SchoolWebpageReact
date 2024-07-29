@@ -89,7 +89,6 @@ const Nav = () => {
               src="https://www.springdalespusa.com/images/logo.png"
               alt="Profile"
             />
-            <span className="absolute bottom-0 right-0 block h-2.5 w-2.5 rounded-full bg-green-600 ring-2 ring-white"></span>
           </span>
         </div>
         <div className="ml-2 lg:hidden">
